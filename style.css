@@ -8,28 +8,55 @@ body {
                          'section section section'
                          'section2 section2 section2'
                          'footer footer footer';
-    grid-template-rows: 400px 220px 300px 350px 70px;                     
+    grid-template-rows: 400px 220px 300px 350px 70px;                   
 }
 header {
-    grid-area: header;
-    background-color:blue;
-        }
-header img {
-    height:400px;
+    grid-area:header;
+    display:flex;
+    background-image: url(img/banner.png);
+    background-size: cover;
+    flex-flow:row;
+    align-items: center;
+    justify-content: space-evenly;
+          }
+.lado-esquerdo {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    }
+header h1 {
+    color:white;
+    font-size: 30pt;
+    font-family:'Pacifico', cursive;
+} 
+header p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}         
+.hand {
+    display:flex;
+    justify-content: center;
+    align-self: flex-end;
     width: auto;
+    height:340px;
 }
+.banner-icons {
+    height: auto;
+    width: 30px;
+         }
 nav {
-    grid-area: nav;
+    grid-area:nav;
     }
 section {
-    grid-area: section;
+    grid-area:section;
     background-color:rgb(198, 198, 198);
 }
 .section2 {
     grid-area:section2;
-    
+   
 }
 footer {
-    grid-area: footer;
+    grid-area:footer;
     background-color: rgb(198, 198, 198);
 }
