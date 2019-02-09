@@ -22,7 +22,7 @@ header {
 .lado-esquerdo {
     display: flex;
     flex-flow: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     }
 header h1 {
@@ -55,22 +55,78 @@ nav {
     }
 nav h2, nav p {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
-.icone1 {
-    width:100px;
-    height:auto;
-    background-color:green;
+.icones {
+    width:50px;
+    height:50px;
+    background-color: rgb(46,204,111);
     border-radius:100%;
-}
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+    border-image: 100px;
+    }
 section {
     grid-area:section;
-    background-color:rgb(198, 198, 198);
+    background-color:rgb(227, 227, 227);
+    display: flex;
+    flex-flow:row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+   }
+  
+input, button {
+    border-radius:10px;
+    padding:10px;
+    border:none;
+}
+button{
+    background-color:rgb(46,204,111);
+}
+button a {
+    text-decoration:none;
+    color:white;
 }
 .section2 {
     grid-area:section2;
-   
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
+.down {
+    text-align:center;
+}
+#homem {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+.icones-inferiores {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-icons {
+    display:flex;
+    height: auto;
+    width: 30px;
+    justify-content:flex-start;
+    flex-direction:column;
+         }
 footer {
     grid-area:footer;
-    background-color: rgb(198, 198, 198);
+    background-color: rgb(227, 227, 227);
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
 }
+footer a{
+    text-decoration: none;
+    color:grey;
+    font-family: 'Roboto', sans-serif;
+        }
