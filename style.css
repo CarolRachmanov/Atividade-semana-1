@@ -42,12 +42,26 @@ header p {
     height:340px;
 }
 .banner-icons {
+    display:flex;
     height: auto;
     width: 30px;
+    justify-content:flex-start;
          }
 nav {
     grid-area:nav;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
     }
+nav h2, nav p {
+    text-align: center;
+}
+.icone1 {
+    width:100px;
+    height:auto;
+    background-color:green;
+    border-radius:100%;
+}
 section {
     grid-area:section;
     background-color:rgb(198, 198, 198);
