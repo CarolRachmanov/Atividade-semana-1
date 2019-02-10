@@ -285,19 +285,11 @@ footer a{
         align-items: center;
         }
         header h1 {
-        color:white;
         font-size: 100pt;
-        font-family:'Pacifico', cursive;
-        font-weight:lighter;
         text-align: center;
        } 
-    span {
-        color:rgb(46,204,111);
-        font-family:'Pacifico', cursive;
-    }
+    
     header p {
-        color: white;
-        font-family: 'Roboto', sans-serif;
         font-size:40pt;
         text-align: center;
         margin: 10px 20px 5px 0;
@@ -357,7 +349,6 @@ footer a{
     align-items: center;
     justify-content: center;
     text-align: left;
-    font-family: 'Roboto', sans-serif;
     
    }
  section h2 {
@@ -414,17 +405,13 @@ iframe {
     width:auto;
 }
 
- /* footer {
+  footer {
     grid-area:footer;
     display:flex;
     justify-content: space-around;
     align-items:center;
-    flex-direction: column;
+    flex-direction: row;
 }
     footer a{
-     font-size:20pt;
- }        */
-
-@media (max-width: 768px) {
-
-}
+     font-size:10pt;
+ }       
