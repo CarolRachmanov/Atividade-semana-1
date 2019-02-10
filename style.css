@@ -8,7 +8,7 @@ body {
                          'section section section'
                          'section2 section2 section2'
                          'footer footer footer';
-    grid-template-rows: 400px 220px 300px 350px 70px;                   
+    grid-template-rows: 400px 220px 300px 350px 90px;                   
 }
 header {
     grid-area:header;
@@ -188,7 +188,7 @@ button a {
     display:flex;
     justify-content: space-between;
     align-items:center;
-    margin: 50px 150px 15px 150px;
+    margin: 30px 150px 15px 150px;
         
 }
  
