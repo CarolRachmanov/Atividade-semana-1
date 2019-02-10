@@ -39,13 +39,14 @@ span {
 header p {
     color: white;
     font-family: 'Roboto', sans-serif;
+    font-size:14pt;
 }         
 .hand {
     display:flex;
     justify-content: center;
     align-self: flex-end;
     width: auto;
-    height:370px;
+    height:350px;
 }
 .banner-icons {
     display:flex;
@@ -58,6 +59,11 @@ header p {
     padding: 10px;
     margin:5px;
          }
+ .lado-esquerdo a{
+     height:20px;
+     width:25px;
+     
+ }        
 .banner-icons:hover {
     background-color:rgb(46,204,111);
     opacity: 1.0;
@@ -103,7 +109,10 @@ section {
     text-align: left;
     font-family: 'Roboto', sans-serif;
    }
-section h2 {
+  .lado-esquerdo-section {
+      margin:15px 15px 80px 20px;
+  }
+   section h2 {
     font-size: 14pt;
     color: rgb(32, 31, 31);
   }
@@ -143,19 +152,55 @@ button a {
 }
 .down {
     text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size:10pt;
+    margin: 40px 200px 15px 200px;
+    color: rgb(75, 72, 72);
+}
+.down2{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-size:14pt;
+    margin: 15px 200px 25px 200px;
+    color:rgb(32, 31, 31)
+}
+.down3{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-size:16pt;
+    margin: 40px 200px 15px 200px;
+    color:rgb(32, 31, 31)
+}
+.down4{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-size:10pt;
+    margin: 5px 200px 40px 200px;
+    color: rgb(75, 72, 72);
 }
 #homem {
     display:flex;
     justify-content: space-between;
     align-items:center;
-    
+    margin:10px 150px 10px 150px;     
 }
+#homem img{
+    height:35px;
+    width:auto;
+}
+.chandler:hover {
+        background-color:rgb(46,204,111);
+        opacity:0.3;
+                }
 .icones-inferiores {
     display: flex;
     flex-flow: row;
-    margin: 30px 450px 10px 500px;
     justify-content: space-around;
     align-items: center;
+    margin: 0 500px 30px 500px;
 }
 
 .section-icons {
@@ -177,9 +222,11 @@ footer {
     display:flex;
     justify-content: space-around;
     align-items:center;
+    padding:10px 400px 10px 400px;
 }
 footer a{
     text-decoration: none;
     color:grey;
     font-family: 'Roboto', sans-serif;
-        }
+    font-size:10pt;
+       }
