@@ -4,10 +4,10 @@ body {
 #main {
     display:grid;
     grid-template-areas: 'header header header'
-                         'nav nav nav'
-                         'section section section'
-                         'section2 section2 section2'
-                         'footer footer footer';
+    'nav nav nav'
+    'section section section'
+    'section2 section2 section2'
+    'footer footer footer';
     grid-template-rows: 400px 220px 300px 350px 90px;                   
 }
 header {
@@ -18,14 +18,14 @@ header {
     flex-flow:row;
     align-items: center;
     justify-content: space-evenly;
-          }
-        
+}
+
 .lado-esquerdo {
     display: flex;
     flex-flow: row;
     justify-content: flex-start;
     align-items: center;
-    }
+}
 .header-margin {
     margin: 15px 10px 100px 10px;
 }
@@ -34,7 +34,7 @@ header h1 {
     font-size: 35pt;
     font-family:'Pacifico', cursive;
     font-weight:lighter;
-   } 
+} 
 span {
     color:rgb(46,204,111);
     font-family:'Pacifico', cursive;
@@ -61,12 +61,12 @@ header p {
     opacity: 0.5;
     padding: 10px;
     margin:5px;
-         }
- .lado-esquerdo a{
-     height:22px;
-     width:24px;
-     
- }        
+}
+.lado-esquerdo a{
+    height:22px;
+    width:24px;
+    
+}        
 .banner-icons:hover {
     background-color:rgb(46,204,111);
     opacity: 1.0;
@@ -76,7 +76,7 @@ nav {
     display:flex;
     justify-content: space-around;
     align-items: center;
-    }
+}
 nav h2 {
     font-size: 14pt;
     color: rgb(32, 31, 31);
@@ -101,7 +101,7 @@ nav h2, nav p {
     justify-content: center;
     border-image: 100px;
     margin:10px 155px 10px 158px;
-    }
+}
 section {
     grid-area:section;
     background-color:rgb(227, 227, 227);
@@ -111,14 +111,14 @@ section {
     justify-content: space-around;
     text-align: left;
     font-family: 'Roboto', sans-serif;
-   }
-  .lado-esquerdo-section {
-      margin:15px 15px 80px 20px;
-  }
-   section h2 {
+}
+.lado-esquerdo-section {
+    margin:15px 15px 80px 20px;
+}
+section h2 {
     font-size: 14pt;
     color: rgb(32, 31, 31);
-  }
+}
 section p {
     font-size: 10pt;
     margin: 5px;
@@ -189,23 +189,23 @@ button a {
     justify-content: space-between;
     align-items:center;
     margin: 30px 150px 15px 150px;
-        
+    
 }
- 
+
 .chandler{
-         
+    
     width: 35px;
     height: 35px;
     background-image: url(./img/pessoa1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-     
+    
 }
 
 .chandler:hover {
-      
-      opacity: 0.3;
- }
+    
+    opacity: 0.3;
+}
 
 .verde:hover{
     background-color:rgb(46,204,111);
@@ -226,7 +226,7 @@ button a {
     width: 30px;
     justify-content:center;
     flex-direction:column;
-         }
+}
 .icones-teimosos
 {
     width:30px;
@@ -236,7 +236,7 @@ button a {
 .oppacity {
     opacity: 0.7;
 }
-}
+
 .size img{
     height:35px;
     width:auto;
@@ -256,17 +256,17 @@ footer a{
     color:grey;
     font-family: 'Roboto', sans-serif;
     font-size:10pt;
-       }
+}
 
- @media (max-width: 430px) {
+@media (max-width: 430px) {
     #main {
-            display:grid;
-            grid-template-areas: 'header'
-                                 'nav'
-                                 'section'
-                                 'section2'
-                                 'footer';
-            grid-template-rows: 1000px 1500px 1000px 800px 400px;   
+        display:grid;
+        grid-template-areas: 'header'
+        'nav'
+        'section'
+        'section2'
+        'footer';
+        grid-template-rows: 1000px 1500px 1000px 800px 400px;   
     }
     header {
         grid-area:header;
@@ -276,18 +276,18 @@ footer a{
         flex-flow:row;
         align-items: center;
         justify-content: space-evenly;
-              }
-            
+    }
+    
     .lado-esquerdo {
         display: flex;
         flex-flow: row;
         justify-content: center;
         align-items: center;
-        }
-        header h1 {
+    }
+    header h1 {
         font-size: 100pt;
         text-align: center;
-       } 
+    } 
     
     header p {
         font-size:40pt;
@@ -307,16 +307,16 @@ footer a{
         border-radius:50%;
         opacity: 0.5;
         padding: 30px;
-          
-             }
-     .lado-esquerdo a{
-         height:45px;
-         width:32px;
-     }
+        
+    }
+    .lado-esquerdo a{
+        height:45px;
+        width:32px;
+    }
     nav {
         flex-direction: column;
-         
-     }
+        
+    }
     nav h2 {
         font-size: 40pt;
         
@@ -341,77 +341,78 @@ footer a{
         justify-content: center;
         border-image: 1000px;
         margin:10px 200px 10px 200px;
-         }
- section {
-    grid-area:section;
-    display: flex;
-    flex-flow:column;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    
-   }
- section h2 {
-    font-size: 40pt;
     }
-section p {
-    font-size: 20pt;
+    section {
+        grid-area:section;
+        display: flex;
+        flex-flow:column;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        
     }
-input {
+    section h2 {
+        font-size: 40pt;
+    }
+    section p {
+        font-size: 20pt;
+    }
+    input {
         font-size:20pt
-}
-button a {
-    font-size:25pt;
-}
-iframe {
-    width:500px;
-    height:300px;
-}
-.down {
+    }
+    button a {
+        font-size:25pt;
+    }
+    iframe {
+        width:500px;
+        height:300px;
+    }
+    .down {
         font-size:28pt;
-    
-}
-.down2{
+        
+    }
+    .down2{
         font-size:30pt;
-    
-}
-.down3{
+        
+    }
+    .down3{
         font-size:30pt;
     }
-.down4{
+    .down4{
         font-size:25pt;
-
-}
-
-.section-icons {
-    display:flex;
-    height: auto;
-    width: 50px;
-    justify-content:center;
-    flex-direction:column;
-         }
-.icones-teimosos
-{
-    width:50px;
-    height: 50px;
-    border-radius:50%;
-}
-.oppacity {
-    opacity: 0.7;
-}
-}
-.size img{
-    height:35px;
-    width:auto;
-}
-
-  footer {
-    grid-area:footer;
-    display:flex;
-    justify-content: space-around;
-    align-items:center;
-    flex-direction: row;
-}
+        
+    }
+    
+    .section-icons {
+        display:flex;
+        height: auto;
+        width: 50px;
+        justify-content:center;
+        flex-direction:column;
+    }
+    .icones-teimosos
+    {
+        width:50px;
+        height: 50px;
+        border-radius:50%;
+    }
+    .oppacity {
+        opacity: 0.7;
+    }
+    
+    .size img{
+        height:35px;
+        width:auto;
+    }
+    
+    footer {
+        grid-area:footer;
+        display:flex;
+        justify-content: space-around;
+        align-items:center;
+        flex-direction: column;
+    }
     footer a{
-     font-size:10pt;
- }       
+        font-size:20pt;
+    }      
+} 
